@@ -10,7 +10,7 @@ button { font:inherit; }
 .site-header { position:absolute; inset:0 0 auto; z-index:50; border-bottom:1px solid rgba(255,255,255,.13); color:white; }
 .header-inner { height:88px; display:flex; align-items:center; justify-content:space-between; }
 .brand { display:inline-flex; align-items:center; gap:12px; color:white; }
-.brand-mark { width:48px; height:48px; }
+.brand-mark { width:48px; height:48px; object-fit:cover; border-radius:10px; box-shadow:0 7px 22px rgba(0,0,0,.13); }
 .brand-copy { display:flex; flex-direction:column; line-height:.82; }
 .brand-copy b { font-family:Georgia,serif; font-size:29px; letter-spacing:.04em; }
 .brand-copy small { font-size:8px; letter-spacing:.17em; margin-top:7px; font-weight:700; }
@@ -82,7 +82,7 @@ em { color:var(--cyan); font-weight:400; }
 .about-copy>p { max-width:590px; color:#536a83; font-size:17px; line-height:1.8; }.text-link.dark{color:var(--navy);margin-top:20px}
 .contact { background:#eef3f5;padding-top:0; }.contact-card { background:linear-gradient(120deg,#0b376d,#071d3f);color:white;padding:72px;display:grid;grid-template-columns:1.2fr .8fr;gap:80px;position:relative;overflow:hidden}.contact-card:after{content:"";position:absolute;width:360px;height:360px;border:1px solid rgba(31,183,229,.25);border-radius:50%;right:-190px;top:-190px}.contact h2{font-size:clamp(46px,5vw,68px);margin-bottom:18px}.contact-copy>p{color:#b6c7d8;line-height:1.7;max-width:520px}.button-white{background:white;color:var(--navy);margin-top:20px}.button-white:hover{background:var(--cyan);transform:translateY(-3px)}
 .contact-info { align-self:center;border-top:1px solid #34567a;position:relative;z-index:2}.contact-info>a,.contact-info>div{display:flex;align-items:center;gap:18px;padding:22px 0;border-bottom:1px solid #34567a}.contact-info i{width:22px;color:var(--cyan);font-size:21px}.contact-info span{font-size:16px}.contact-info small{display:block;color:#7f9ab5;font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
-.footer { background:#04142e;color:white;padding:34px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.footer .brand-mark{width:38px;height:38px}.footer .brand-copy b{font-size:23px}.footer p{font-size:12px;color:#7890a9}
+.footer { background:#04142e;color:white;padding:34px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.footer .brand-mark{width:42px;height:42px;border-radius:9px}.footer .brand-copy b{font-size:23px}.footer p{font-size:12px;color:#7890a9}
 .reveal { opacity:0; transform:translateY(35px); transition:opacity .8s cubic-bezier(.22,1,.36,1),transform .8s cubic-bezier(.22,1,.36,1); }.reveal.is-visible{opacity:1;transform:none}
 @keyframes heroIn{to{opacity:1;transform:none}}@keyframes float{50%{transform:translateY(-10px)}}
 

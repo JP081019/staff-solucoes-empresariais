@@ -12,7 +12,7 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: "Staff Soluções Empresariais | Palhoça",
   description: "Segurança, limpeza e serviços terceirizados em Palhoça.",
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  icons: { icon: "/logo-staff.png", shortcut: "/logo-staff.png", apple: "/logo-staff.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
